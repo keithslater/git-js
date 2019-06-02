@@ -1589,7 +1589,7 @@
     * @param {string} type
     */
    function requireResponseHandler (type) {
-      return require(__dirname + '/responses/' + type);
+      return require('./responses/' + type);
    }
 
 }());
